@@ -39,10 +39,13 @@ div{
 
   div{
   	align-self: stretch;
-    justify-self: stretch;
+    justify-self: center;
+    position: relative;
 
   }
 
   div:nth-child(even){
   	border: 2px solid black;
+  	align-items: center;
+  	justify-self: stretch;
   }
