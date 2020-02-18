@@ -41,11 +41,12 @@ div{
   	align-self: stretch;
     justify-self: center;
     position: relative;
+    text-align: center;
 
   }
 
   div:nth-child(even){
   	border: 2px solid black;
-  	align-items: center;
+  	align-itmes: center;
   	justify-self: stretch;
   }
