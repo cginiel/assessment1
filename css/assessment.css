@@ -10,8 +10,8 @@ h1{
 img{
    width: 120px;
    display: block; 
-   margin-bottom: 15px; 
    margin: 0 auto;
+   margin-bottom: 15px; 
    /*Your code here*/
 }
 
@@ -33,16 +33,16 @@ div{
 @media all and (min-width: 850px){
 
   #mystuff{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 1fr 1fr 1fr;
   }
 
   div{
   	align-self: stretch;
-    justify-self: stretch; 
+    justify-self: stretch;
+
   }
 
   div:nth-child(even){
   	border: 2px solid black;
-
   }
